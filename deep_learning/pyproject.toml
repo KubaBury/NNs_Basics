@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "deep-learning"
+version = "0.1.0"
+description = ""
+authors = ["Jakub Bureš <jakub.bures@avast.com>"]
+readme = "README.md"
+packages = [{include = "deep_learning", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.11"
+jupyter = "^1.0.0"
+tensorflow = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
